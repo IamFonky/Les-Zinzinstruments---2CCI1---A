@@ -1,6 +1,7 @@
 import { playTone } from "../../js/audio.js";
 
-export const id = "unknown";
+export const id = "drum";
+
 
 export function play() {
   playTone(233.08, "sawtooth", 0.3, 0.25);
