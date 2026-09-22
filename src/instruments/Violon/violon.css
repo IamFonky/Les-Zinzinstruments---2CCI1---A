@@ -1,4 +1,3 @@
-.instrument[data-instrument="unknown"] {
-  --hue: 220;
-  background: linear-gradient(160deg, #565660, #33333d);
+.instrument[data-instrument="violon"] {
+  --hue: 300;
 }
