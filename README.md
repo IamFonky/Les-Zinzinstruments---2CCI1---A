@@ -10,6 +10,7 @@ Profs :
   - Pierre-Benjamin Monaco
 
 Etudiants : 
+- Dario Sepe
 
 ## 🧪 Ta mission
 
