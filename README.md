@@ -33,6 +33,15 @@ Le zoo est presque vide : il ne reste que le **piano** 🎹 et la **voix** 🗣�
 
 Ton instrument remplacera automatiquement sa case ❓ dès que ton PR sera accepté !
 
+## Telecharger et installer NodeJS
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.7/install.sh | bash
+\. "$HOME/.nvm/nvm.sh"
+nvm install 24
+node -v # Should print "v24.21.0".
+npm -v # Should print "11.19.0".
+```
+
 ## ▶️ Lancer le site
 
 ```bash
