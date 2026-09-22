@@ -10,6 +10,7 @@ Profs :
   - Pierre-Benjamin Monaco
 
 Etudiants : 
+ - Luca Grandjean
 
 ## 🧪 Ta mission
 
