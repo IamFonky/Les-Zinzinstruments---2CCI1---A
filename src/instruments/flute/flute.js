@@ -1,6 +1,6 @@
 import { playTone } from "../../js/audio.js";
 
-export const id = "flute";
+export const id = "flûte";
 
 export function play() {
   playTone(233.08, "sawtooth", 0.3, 0.25);
