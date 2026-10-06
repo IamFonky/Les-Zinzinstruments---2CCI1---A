@@ -12,7 +12,7 @@ vi.mock("../src/js/audio.js", () => ({
 
 describe("drum", () => {
   it("affiche sa bulle", () => {
-    expect(html, `drum.html : le <button> doit porter data-instrument="drum" — corrige l'attribut data-instrument.`).toContain(`data-instrument="${id}"`);
+    expect(html, `drum.html : le <button> doit porter data-instrument="drum" — corrige l'attribut data-instrument.`).toContain('data-instrument="drum"');
     expect(html, `drum.html : la bulle doit être data-popup="BOOM! 🥁" — corrige l'attribut data-popup (texte et émoji).`).toContain('data-popup="BOOM! 🥁"');
   });
 
