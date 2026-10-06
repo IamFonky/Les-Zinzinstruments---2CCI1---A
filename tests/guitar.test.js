@@ -24,7 +24,7 @@ describe("guitar", () => {
     play();
     expect(playTone, "guitar.js : il faut exactement 3 notes — playTone(fréquence, onde, durée, volume, tempo, détune).").toHaveBeenCalledTimes(3);
     expect(playTone, `guitar.js : la note n°1 est incorrecte — appelle playTone(196, "sawtooth", 1.5, 0.15) exactement.`).toHaveBeenNthCalledWith(1, 196, "sawtooth", 1.5, 0.15);
-    expect(playTone, `guitar.js : la note n°2 est incorrecte — appelle playTone(196, "triangle", 1.5, 0.2, 0, 8) exactement (8 = léger détune).`).toHaveBeenNthCalledWith(2, 196, "triangle", 1.5, 0.2, 0, 8);
+    expect(playTone, `guitar.js : la note n°2 est incorrecte —appelle  playTone(196, "triangle", 1.5, 0.2, 0, 8) exactement (8 = léger détune).`).toHaveBeenNthCalledWith(2, 196, "triangle", 1.5, 0.2, 0, 8);
     expect(playTone, `guitar.js : la note n°3 est incorrecte — appelle playTone(294, "triangle", 1.2, 0.15, 0.12) exactement.`).toHaveBeenNthCalledWith(3, 294, "triangle", 1.2, 0.15, 0.12);
   });
 });
