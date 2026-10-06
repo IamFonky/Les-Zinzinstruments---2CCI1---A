@@ -12,7 +12,7 @@ vi.mock("../src/js/audio.js", () => ({
 
 describe("unknown", () => {
   it("affiche sa bulle", () => {
-    expect(html, `unknown.html : le <button> doit porter data-instrument="unknown" — corrige l'attribut data-instrument.`).toContain(`data-instrument="${id}"`);
+    expect(html, `unknown.html : le <button> doit porter data-instrument="unknown" — corrige l'attribut data-instrument.`).toContain('data-instrument="unknown"');
     expect(html, `unknown.html : la bulle doit être data-popup="POUA POUA POUA POUAAA! ❓" — corrige l'attribut data-popup.`).toContain('data-popup="POUA POUA POUA POUAAA! ❓"');
   });
 
