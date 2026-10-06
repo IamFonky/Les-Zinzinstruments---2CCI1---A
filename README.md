@@ -9,7 +9,9 @@ Le tout premier projet Web en collaboration avec tous les élèves d'une classe 
 Profs : 
   - Pierre-Benjamin Monaco
 
-Etudiants : 
+Etudiants :
+  - Pierre-Benjamin Monaco
+
 
 ## 🧪 Ta mission
 
