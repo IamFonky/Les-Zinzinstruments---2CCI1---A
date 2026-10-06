@@ -4,8 +4,8 @@ export const id = "unknown";
 
 export function play() {
   playTone(523.25, "triangle", 1.2, 0.22) 
-  playTone(233.08, "sawtooth", 0.3, 0.25);
-  playTone(220, "sawtooth", 0.9, 0.25, 0.3);
+  playTone(659.25, "triangle", 1.1, 0.2, 0.09);
+  playTone(783.99, "triangle", 1, 0.18, 0.18);
   playTone(207.65, "sawtooth", 0.3, 0.25, 0.6);
-  playTone(196, "sawtooth", 1, 0.3, 0.9, -30);
+  playTone(1046.5, "triangle", 1.4, 0.16, 0.27);
 }
